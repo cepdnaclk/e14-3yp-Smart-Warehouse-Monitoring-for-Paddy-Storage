@@ -1,57 +1,72 @@
-___
-# DELETE THIS INSTRUCTIONS AND ADD AN INTRODUCTION ABOUT YOUR PROJECT
-___
+---
+layout: home
+permalink: index.html
+repository-name: e14-3yp-Smart-Warehouse-Monitoring-for-Paddy-Storage
+title: Smart Warehouse Monitoring for Paddy Storage
+---
 
-# eYY-3yp-project-template
 
-This is a sample repository you can use for your Embedded Systems project. Once you followed these instructions, remove the text and add a brief introduction to here.
+# Smart Warehouse Monitoring for Paddy Storage
 
-### Enable GitHub Pages
+---
 
-You can put the things to be shown in GitHub pages into the _docs/_ folder. Both html and md file formats are supported. You need to go to settings and enable GitHub pages and select _main_ branch and _docs_ folder from the dropdowns, as shown in the below image.
+## Team
+-  E/14/336, SUCHINTHANA A.P.N., [e14336@eng.pdn.ac.lk](mailto:e14336@eng.pdn.ac.lk)
+-  E/14/011, AGALAKUMBURA S.T., [e14011@eng.pdn.ac.lk](mailto:e14011@eng.pdn.ac.lk)m)
 
-![image](https://user-images.githubusercontent.com/11540782/98789936-028d3600-2429-11eb-84be-aaba665fdc75.png)
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Solution Architecture](#solution-architecture )
+3. [Links](#links)
 
-### Special Configurations
+---
 
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
+## Introduction
 
-```
-{
-  "title": "This is the title of the project",
-  "team": [
-    {
-      "name": "Team Member Name 1",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 2",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 3",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    }
-  ],
-  "supervisors": [
-    {
-      "name": "Dr. Supervisor 1",
-      "email": "email@eng.pdn.ac.lk"
-    },
-    {
-      "name": "Supervisor 2",
-      "email": "email@eng.pdn.ac.lk"
-    }
-  ],
-  "tags": ["Web", "Embedded Systems"]
-}
-```
+Networked embedded systems have become  quite important nowadays, especially for monitoring and control of distance and dislocated objects. This concept is applied in many fields in today as it increases the accuracy rather than controlling manually.
 
-Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool).
+Therefore we thought to implement a embedded system to monitor and control physical quantities of a rice paddy storage. Controlling such conditions precisely will ensure the best quality. This will helpful to the businessmen who having number of such stores in many locations as it is hard to control them manually. So by using this system they can operate it easily and being in any location.
 
-### Page Theme
+This system can be used in storage by changing the desired physical quantities.
 
-A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_ and use HTML based website.
+Features
+Monitoring and controlling physical quantities
+Automatically controlling physical quantities up to given preset value
+Maintaining a inventory system
+Project Complexity
+v  Embedded system to
+
+Ø  Sense the physical quantities
+
+Ø  Control the physical quantities
+
+Ø  Transfer data
+
+v  Web interface to monitor and control manually.
+
+Each store have their own node and they are remotely operated.
+
+
+## Solution Architecture
+·       ♦ CO321 – The desired quantities are measured using sensors and the values are transmitted through a micro-controller to the server and the monitoring system(on pre-defined time interval/ user request). Those conditions are automatically controlled up to preset value. Other than that quantities can be controlled manually.
+
+·       ♦ CO324 – Data from sensors and controllers are sent to a centralized server using GSM module as a SMS. Since there are many nodes, network traffic get high. It is concerned during design process to avoid drawbacks.
+
+·        ♦CO325 – The feedback data and control data is sent as encrypted to ensure the security. Otherwise any unauthorized parties can change the message(data) unethically. This can occur a huge loss. Therefore ensuring the security is must to have a good market value  to our system.
+
+## Hardware and Software Designs
+
+Detailed designs with many sub-sections
+
+
+## Links
+
+- <a href = "https://github.com/cepdnaclk/e14-3yp-Smart-Warehouse-Monitoring-for-Paddy-Storage" target = "_blank"> Project Repository </a>
+- <a href = "https://cepdnaclk.github.io/e14-3yp-Smart-Warehouse-Monitoring-for-Paddy-Storage/" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+
+
+
+[//]: # (Please refer this to learn more about Markdown syntax)
+[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
