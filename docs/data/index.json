@@ -3,19 +3,19 @@
     "team": [
         {
             "name": "SUCHINTHANA A.P.N.",
-            "email": "e14336@eng.pdn.ac.lk",
+            "email": "e14336@ce.pdn.ac.lk",
             "eNumber": "E/14/336"
         },
         {
             "name": "AGALAKUMBURA S.T.",
-            "email": "e14011@eng.pdn.ac.lk",
+            "email": "e14011@ce.pdn.ac.lk",
             "eNumber": "E/14/011"
         }
     ],
     "supervisors": [
         {
             "name": "Dr. Isuru Nawinne",
-            "email": "isurunawinne@eng.pdn.ac.lk"
+            "email": "isurunawinne@ce.pdn.ac.lk"
         }
     ],
     "tags": ["Web", "Embedded Systems"]

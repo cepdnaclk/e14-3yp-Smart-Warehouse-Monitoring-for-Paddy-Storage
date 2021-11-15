@@ -11,8 +11,8 @@ title: Smart Warehouse Monitoring for Paddy Storage
 ---
 
 ## Team
--  E/14/336, SUCHINTHANA A.P.N., [e14336@eng.pdn.ac.lk](mailto:e14336@eng.pdn.ac.lk)
--  E/14/011, AGALAKUMBURA S.T., [e14011@eng.pdn.ac.lk](mailto:e14011@eng.pdn.ac.lk)
+-  E/14/336, SUCHINTHANA A.P.N., [e14336@ce.pdn.ac.lk](mailto:e14336@ce.pdn.ac.lk)
+-  E/14/011, AGALAKUMBURA S.T., [e14011@ce.pdn.ac.lk](mailto:e14011@ce.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -64,7 +64,7 @@ Detailed designs with many sub-sections
 - <a href = "https://github.com/cepdnaclk/e14-3yp-Smart-Warehouse-Monitoring-for-Paddy-Storage" target = "_blank"> Project Repository </a>
 - <a href = "https://cepdnaclk.github.io/e14-3yp-Smart-Warehouse-Monitoring-for-Paddy-Storage/" target = "_blank">Project Page</a>
 - <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
-- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+- <a href = "https://ce.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
 
 
 
